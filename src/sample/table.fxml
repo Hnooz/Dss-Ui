@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Table">
+   <children>
+      <Pane layoutX="2.0" layoutY="3.0" prefHeight="392.0" prefWidth="594.0">
+         <children>
+            <Button fx:id="calculate" layoutX="103.0" layoutY="260.0" mnemonicParsing="false" text="calculate" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

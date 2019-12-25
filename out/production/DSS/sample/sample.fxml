@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="next" layoutX="173.0" layoutY="272.0" mnemonicParsing="false" onAction="#gotNext" text="next" />
+      <TextField fx:id="stat" layoutX="125.0" layoutY="141.0" promptText="status" />
+      <TextField fx:id="fact" layoutX="125.0" layoutY="207.0" promptText="factories" />
+      <Label fx:id="lab" layoutX="102.0" layoutY="89.0" prefHeight="17.0" prefWidth="183.0" textFill="RED" />
+   </children>
+</Pane>
